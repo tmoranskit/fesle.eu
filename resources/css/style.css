@@ -8,7 +8,7 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    font-size:  4.6vmin;
+    font-size:  3vmin;
     padding: 1vh 1vh;
 }
 
@@ -29,6 +29,13 @@ img.woman {
     bottom:0px;
     height: 60vmin;
     left: 0px;
+}
+
+img.man {
+    position:fixed;
+    bottom:10vh;
+    height: 80vmin;
+    right: -5vmin;
 }
 
 img.whiteboard {
@@ -86,7 +93,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #000;
-    font-size: 3vh;
+    font-size: 4vmin;
 }
   
 
@@ -94,8 +101,8 @@ ul {
 li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 2vh 3vh;
+    text-align: left;
+    padding:  2vmin 3vmin;
     text-decoration: none;
 }
   
@@ -109,12 +116,12 @@ li a:hover:not(.active) {
 
 .questionmark {
     position: fixed;
-    animation-name: animation;
+    animation-name: animation1;
     animation-duration: 6s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     font-size: 10vmin;
-    bottom:20vmin;
+    bottom: 20vmin;
     opacity: 0;
     color: #fc7c24;;
 }
@@ -143,14 +150,50 @@ li a:hover:not(.active) {
     animation-delay: 5s;
     left: 15vmin;
 }
+
+#qm6, #qm7, #qm8, #qm9, #qm10 {
+    bottom: 50vmin;
+    animation-name: animation2;
+} 
+
+#qm6 {
+    animation-delay: 1s;
+    right: 10vmin;
+}
+
+#qm7 {
+    animation-delay: 2s;
+    right: 20vmin;
+}
+
+#qm8 {
+    animation-delay: 3s;
+    right: 5vmin;
+}
+
+#qm9 {
+    animation-delay: 4s;
+    right: 25vmin;
+}
+
+#qm10 {
+    animation-delay: 5s;
+    right: 15vmin;
+}
   
-  @keyframes animation {
+  @keyframes animation1 {
     0%   {opacity: 0; bottom:20vmin;}
     50%  {opacity: 0.8; bottom:40vmin;}
     100% {opacity: 0; bottom:60vmin;}
   }
 
-  @media only screen and (min-width:600px) {
+  @keyframes animation2 {
+    0%   {opacity: 0; bottom:50vmin;}
+    50%  {opacity: 0.8; bottom:70vmin;}
+    100% {opacity: 0; bottom:90vmin;}
+  }
+
+  @media (min-width:600px){
     /* For mobile phones: */
     li {
         float: left;
