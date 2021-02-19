@@ -85,18 +85,6 @@ div.questiontxt {
     width: 90%;
 }
 
-/* background: */
-progress::-webkit-progress-bar {background-color: black; width: 100%;}
-progress {
-    background-color: black;
-    height: 0.2vmin;
-}
-
-/* value: */
-progress::-webkit-progress-value {background-color: #fc7c24;}
-progress::-moz-progress-bar {background-color: #fc7c24 ;}
-progress {color: #fc7c24;}
-
 #questionlink:link, #questionlink:visited {
     color: black;
     text-align: center;
