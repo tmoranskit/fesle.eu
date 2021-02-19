@@ -60,7 +60,7 @@ div.questiontxt {
     left: 43vmin;
     width: 50vmin;
     font-size: 3.4vmin;
-    height: 18vmin;
+    height: 16vmin;
     text-align: center;
     vertical-align: middle;
     display:table;
@@ -93,8 +93,8 @@ progress {
 }
 
 /* value: */
-progress::-webkit-progress-value {background-color: #fc7c24 !important;}
-progress::-moz-progress-bar {background-color: #fc7c24 !important;}
+progress::-webkit-progress-value {background-color: #fc7c24;}
+progress::-moz-progress-bar {background-color: #fc7c24 ;}
 progress {color: #fc7c24;}
 
 #questionlink:link, #questionlink:visited {
