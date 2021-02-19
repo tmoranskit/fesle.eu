@@ -1,0 +1,160 @@
+footer {
+    position: fixed;
+    bottom:0px;
+    right: 0px;
+    height: 20vmin;
+    padding: 2vh 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size:  4.6vmin;
+    padding: 1vh 1vh;
+}
+
+footer a:link, footer a:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  footer a:hover, footer a:active {
+    background-color: #fc7c24;
+    transition: 1s ease-in-out;
+  }
+
+img.woman {
+    position:fixed;
+    bottom:0px;
+    height: 60vmin;
+    left: 0px;
+}
+
+img.whiteboard {
+    height: 40vmin;
+}
+
+
+img.question {
+    position:fixed;
+    bottom:40vmin;
+    left: 30vmin;
+    width: 70vmin;
+}
+
+div.questiontxt {
+    position:fixed;
+    bottom:49.5vmin;
+    left: 43vmin;
+    width: 50vmin;
+    font-size: 3.4vmin;
+    height: 15vmin;
+
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+  }
+
+ .questionlink{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.questionlink:link, .questionlink:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .questionlink:hover, .questionlink:active {
+    background-color: #fc7c24;
+    transition: 1s ease-in-out;
+  }
+
+body {
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    font-size: 3vh;
+}
+  
+
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2vh 3vh;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #fc7c24;
+}
+  
+.active {
+    background-color: #fc7c24;
+}
+
+.questionmark {
+    position: fixed;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-size: 10vmin;
+    bottom:20vmin;
+    opacity: 0;
+    color: #fc7c24;;
+}
+
+#qm1 {
+    animation-delay: 1s;
+    left: 10vmin;
+}
+
+#qm2 {
+    animation-delay: 2s;
+    left: 20vmin;
+}
+
+#qm3 {
+    animation-delay: 3s;
+    left: 5vmin;
+}
+
+#qm4 {
+    animation-delay: 4s;
+    left: 25vmin;
+}
+
+#qm5 {
+    animation-delay: 5s;
+    left: 15vmin;
+}
+  
+  @keyframes animation {
+    0%   {opacity: 0; bottom:20vmin;}
+    50%  {opacity: 0.8; bottom:40vmin;}
+    100% {opacity: 0; bottom:60vmin;}
+  }
+
+  @media only screen and (min-width:600px) {
+    /* For mobile phones: */
+    li {
+        float: left;
+    }
+
+  }
+
