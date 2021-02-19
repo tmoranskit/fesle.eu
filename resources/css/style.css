@@ -78,13 +78,6 @@ div.questiontxt {
     transform: translateY(-45%);
 }
 
-#bar {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 90%;
-}
-
 #questionlink:link, #questionlink:visited {
     color: black;
     text-align: center;
