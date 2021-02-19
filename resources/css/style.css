@@ -1,4 +1,5 @@
 footer {
+    display: flex;
     position: fixed;
     bottom:0px;
     right: 0px;
@@ -55,31 +56,55 @@ img.question {
 
 div.questiontxt {
     position:fixed;
-    bottom:49.5vmin;
+    bottom:50vmin;
     left: 43vmin;
     width: 50vmin;
     font-size: 3.4vmin;
-    height: 15vmin;
-
+    height: 18vmin;
     text-align: center;
     vertical-align: middle;
     display:table;
   }
 
- .questionlink{
-    display:table-cell;
-    vertical-align:middle;
+ #questionlink{
+    position: relative;
     text-align:center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    -ms-transform: translateY(-45%);
+    transform: translateY(-45%);
 }
 
-.questionlink:link, .questionlink:visited {
+#bar {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 90%;
+}
+
+/* background: */
+progress::-webkit-progress-bar {background-color: black; width: 100%;}
+progress {
+    background-color: black;
+    height: 0.2vmin;
+}
+
+/* value: */
+progress::-webkit-progress-value {background-color: #fc7c24 !important;}
+progress::-moz-progress-bar {background-color: #fc7c24 !important;}
+progress {color: #fc7c24;}
+
+#questionlink:link, #questionlink:visited {
     color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
   
-  .questionlink:hover, .questionlink:active {
+  #questionlink:hover, #questionlink:active {
     background-color: #fc7c24;
     transition: 1s ease-in-out;
   }
