@@ -25,6 +25,7 @@ footer a:link, footer a:visited {
   }
 
 img.woman {
+    pointer-events: none;
     position:fixed;
     bottom:0px;
     height: 60vmin;
@@ -32,6 +33,7 @@ img.woman {
 }
 
 img.man {
+    pointer-events: none;
     position:fixed;
     bottom:10vh;
     height: 80vmin;
@@ -39,6 +41,7 @@ img.man {
 }
 
 img.whiteboard {
+    pointer-events: none;
     height: 40vmin;
 }
 
@@ -93,7 +96,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #000;
-    font-size: 4vmin;
+    font-size: 6vmin;
 }
   
 
@@ -115,6 +118,7 @@ li a:hover:not(.active) {
 }
 
 .questionmark {
+    pointer-events: none;
     position: fixed;
     animation-name: animation1;
     animation-duration: 6s;
@@ -193,7 +197,7 @@ li a:hover:not(.active) {
     100% {opacity: 0; bottom:90vmin;}
   }
 
-  @media (min-width:600px){
+  @media (min-width:500px){
     /* For mobile phones: */
     li {
         float: left;
