@@ -13,6 +13,10 @@ footer {
     padding: 1vh 1vh;
 }
 
+footer p {
+    margin: 0;
+}
+
 footer a:link, footer a:visited {
     color: black;
     text-align: center;
