@@ -64,7 +64,7 @@ img.sectionimages {
 
 img.portrait {
     margin: 15px;
-    width: 200px;
+    width: 90%;
 }
 
 div.questiontxt {
@@ -235,6 +235,11 @@ section:nth-child(odd) {background: #E0E0E0}
         width: 100%;
       }
     */
+
+    img.portrait {
+        margin: 15px;
+        width: 200px;
+    }
   }
 
   @media (min-width: 800px) {
