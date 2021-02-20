@@ -62,6 +62,11 @@ img.sectionimages {
     max-width: 95%;
 }
 
+img.portrait {
+    margin: 15px;
+    width: 200px;
+}
+
 div.questiontxt {
     position:fixed;
     bottom:48vmin;
