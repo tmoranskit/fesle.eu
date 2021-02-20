@@ -53,18 +53,18 @@ img.whiteboard {
 
 img.question {
     position:fixed;
-    bottom:40vmin;
-    left: 30vmin;
-    width: 70vmin;
+    bottom:39vmin;
+    left: 23vmin;
+    width: 77vmin;
 }
 
 div.questiontxt {
     position:fixed;
-    bottom:50vmin;
-    left: 43vmin;
-    width: 50vmin;
-    font-size: 3.4vmin;
-    height: 16vmin;
+    bottom:48vmin;
+    left: 38vmin;
+    width: 56vmin;
+    font-size: 4.5vmin;
+    height: 22vmin;
     text-align: center;
     vertical-align: middle;
     display:table;
@@ -78,8 +78,8 @@ div.questiontxt {
     top: 50%;
     left: 0;
     width: 100%;
-    -ms-transform: translateY(-45%);
-    transform: translateY(-45%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 #questionlink:link, #questionlink:visited {
@@ -171,27 +171,27 @@ li a:hover:not(.active) {
 } 
 
 #qm6 {
-    animation-delay: 1s;
+    animation-delay: 4s;
     right: 10vmin;
 }
 
 #qm7 {
-    animation-delay: 2s;
+    animation-delay: 5s;
     right: 20vmin;
 }
 
 #qm8 {
-    animation-delay: 3s;
+    animation-delay: 6s;
     right: 5vmin;
 }
 
 #qm9 {
-    animation-delay: 4s;
+    animation-delay: 7s;
     right: 25vmin;
 }
 
 #qm10 {
-    animation-delay: 5s;
+    animation-delay: 8s;
     right: 15vmin;
 }
   
