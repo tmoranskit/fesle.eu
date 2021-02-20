@@ -58,6 +58,10 @@ img.question {
     width: 77vmin;
 }
 
+img.certs {
+    max-width: 90%;
+}
+
 div.questiontxt {
     position:fixed;
     bottom:48vmin;
