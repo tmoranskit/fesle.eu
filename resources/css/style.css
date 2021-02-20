@@ -194,6 +194,8 @@ ul.navbar li a:hover:not(.active) {
     animation-delay: 8s;
     right: 15vmin;
 }
+
+section:nth-child(odd) {background: #E0E0E0}
   
   @keyframes animation1 {
     0%   {opacity: 0; bottom:20vmin;}
