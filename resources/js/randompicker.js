@@ -5,6 +5,7 @@ var interval = 1000;
 var myVar = setInterval(myTimer, 1000);
 
 var chromaticScale = [
+    //Startup simulation for Agile Teams
     "How to encourage people to do pair programming?",
     "How to run a mob programming session remotely?",
     "How to introduce TDD and BDD approach in your team?",
@@ -13,7 +14,21 @@ var chromaticScale = [
     "How to talk with users and stakeholders to uncover hidden assumptions?",
     "How to work online collaboratively on an outcome based product backlog?",
     "How to run an example mapping session remotely?",
-    "How to document your product using live executable documentation in Gherkin?"
+    "How to document your product using live executable documentation in Gherkin?",
+
+    //Buisnes Product Backlog
+
+    "What is (and what isn't) a Product Backlog?",
+    "How to build a Product Backlog to best meet its goal?",
+    "What can we put (and what shouldn't we) inside a Product Backlog?",
+    "How to define Product Backlog elements to make them valuable on their own?",
+    "What does Product Coaching mean?",
+    "How to deliver business value as early as possible?",
+    "Who and how is responsible for the Product Backlog on different levels?",
+    "How to order a Product Backlog while working with stakeholders and development teams?",
+    "How to move from running 500 concurrent projects in your organization?"
+    
+
 ]
 
 var notePool = [];
@@ -31,7 +46,7 @@ function myTimer() {
 
 function updateInterval()
 {   
-    var bpm = 50;
+    var bpm = 60;
     var newInterval = Math.round(1000*60/bpm);
  
     if ((bpm >= 10)&&(bpm <= 400)) {      

@@ -100,7 +100,7 @@ body {
     padding: 0;
 }
 
-ul {
+ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -111,7 +111,7 @@ ul {
   
 
   
-li a {
+ul.navbar li a {
     display: block;
     color: white;
     text-align: left;
@@ -119,7 +119,7 @@ li a {
     text-decoration: none;
 }
   
-li a:hover:not(.active) {
+ul.navbar li a:hover:not(.active) {
     background-color: #585858;
 }
   
@@ -209,9 +209,24 @@ li a:hover:not(.active) {
 
   @media (min-width:500px){
     /* For mobile phones: */
-    li {
+    ul.navbar li {
         float: left;
     }
 
+    /* TO DO STICKY
+    ul.navbar  {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    */
+  }
+
+  @media (min-width: 800px) {
+    /* For larger: */
+    div.container {
+        width: 60%;
+        margin: auto;
+    }
   }
 
