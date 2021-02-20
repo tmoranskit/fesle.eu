@@ -195,6 +195,10 @@ ul.navbar li a:hover:not(.active) {
     right: 15vmin;
 }
 
+section {
+    padding: 15px;
+}
+
 section:nth-child(odd) {background: #E0E0E0}
   
   @keyframes animation1 {

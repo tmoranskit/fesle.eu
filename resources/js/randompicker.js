@@ -26,8 +26,40 @@ var chromaticScale = [
     ["workshops.html#bpb", "How to deliver business value as early as possible?"],
     ["workshops.html#bpb", "Who and how is responsible for the Product Backlog on different levels?"],
     ["workshops.html#bpb", "How to order a Product Backlog while working with stakeholders and development teams?"],
-    ["workshops.html#bpb", "How to move from running 500 concurrent projects in your organization?"]
+    ["workshops.html#bpb", "How to move from running 500 concurrent projects in your organization?"],
     
+    //How to recruit for Agile roles?
+    ["workshops.html#htrfar", "What is a competency?"],
+    ["workshops.html#htrfar", "How to build a candidate's competency profile?"],
+    ["workshops.html#htrfar", "What recruitment techniques can help to check a candidate's experience?"],
+    ["workshops.html#htrfar", "Which recruitment techniques are ineffective and harmful?"],
+    ["workshops.html#htrfar", "How to formulate proper recruitment questions?"],
+    ["workshops.html#htrfar", "What is the STAR model?"],
+    ["workshops.html#htrfar", "What are the advantages of internal vs. external recruiting?"],
+    ["workshops.html#htrfar", "What aspects distinguish a professional recruitment process?"],
+
+    //Fear and Anxiety in organizations
+    ["workshops.html#faaio", "What are emotions and how do you categorize them?"],
+    ["workshops.html#faaio", "What are typical symptoms and defense mechanisms of fear?"],
+    ["workshops.html#faaio", "How to deal with anxiety?"],
+    ["workshops.html#faaio", "How to help others to deal with anxiety?"],
+    ["workshops.html#faaio", "How to pay attention to projective identification?"],
+    ["workshops.html#faaio", "What are the system consequences of fear in the organization?"],
+    ["workshops.html#faaio", "What are the approaches to prevention and intervention?"],
+    ["workshops.html#faaio", "How to facilitate a reflecting group (Balint Group)?"],
+
+    //Agile Transformation Workshop
+    ["workshops.html#atw", "What are common fail patterns organizations encounter while moving towards Agile?"],
+    ["workshops.html#atw", "What are the differences between various Scaling Agile and Scrum Frameworks?"],
+    ["workshops.html#atw", "How to build your product with multiple Scrum Teams?"],
+    ["workshops.html#atw", "What are the crucial steps in successful Agile transformation?"],
+    ["workshops.html#atw", "How to provoke action on higher management?"],
+    ["workshops.html#atw", "How to avoid working on different tasks than planned?"],
+    ["workshops.html#atw", "How to deal with no time for improvements?"],
+    ["workshops.html#atw", "How to handle integration issues?"],
+    ["workshops.html#atw", "How to fight with a low bus factor?"],
+    ["workshops.html#atw", "What to do with bugs no team wants to resolve?"],
+    ["workshops.html#atw", "How to foster multi teams cooperation?"]
 
 ]
 
