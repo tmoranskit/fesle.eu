@@ -6,27 +6,27 @@ var myVar = setInterval(myTimer, 1000);
 
 var chromaticScale = [
     //Startup simulation for Agile Teams
-    "How to encourage people to do pair programming?",
-    "How to run a mob programming session remotely?",
-    "How to introduce TDD and BDD approach in your team?",
-    "How to move from acceptance criteria towards specification by example?",
-    "How to involve testers in the initial stages of software development?",
-    "How to talk with users and stakeholders to uncover hidden assumptions?",
-    "How to work online collaboratively on an outcome based product backlog?",
-    "How to run an example mapping session remotely?",
-    "How to document your product using live executable documentation in Gherkin?",
+    ["workshops.html#ssfat", "How to encourage people to do pair programming?"],
+    ["workshops.html#ssfat", "How to run a mob programming session remotely?"],
+    ["workshops.html#ssfat", "How to introduce TDD and BDD approach in your team?"],
+    ["workshops.html#ssfat", "How to move from acceptance criteria towards specification by example?"],
+    ["workshops.html#ssfat", "How to involve testers in the initial stages of software development?"],
+    ["workshops.html#ssfat", "How to talk with users and stakeholders to uncover hidden assumptions?"],
+    ["workshops.html#ssfat", "How to work online collaboratively on an outcome based product backlog?"],
+    ["workshops.html#ssfat", "How to run an example mapping session remotely?"],
+    ["workshops.html#ssfat", "How to document your product using live executable documentation in Gherkin?"],
 
     //Buisnes Product Backlog
 
-    "What is (and what isn't) a Product Backlog?",
-    "How to build a Product Backlog to best meet its goal?",
-    "What can we put (and what shouldn't we) inside a Product Backlog?",
-    "How to define Product Backlog elements to make them valuable on their own?",
-    "What does Product Coaching mean?",
-    "How to deliver business value as early as possible?",
-    "Who and how is responsible for the Product Backlog on different levels?",
-    "How to order a Product Backlog while working with stakeholders and development teams?",
-    "How to move from running 500 concurrent projects in your organization?"
+    ["workshops.html#bpb", "What is (and what isn't) a Product Backlog?"],
+    ["workshops.html#bpb", "How to build a Product Backlog to best meet its goal?"],
+    ["workshops.html#bpb", "What can we put (and what shouldn't we) inside a Product Backlog?"],
+    ["workshops.html#bpb", "How to define Product Backlog elements to make them valuable on their own?"],
+    ["workshops.html#bpb", "What does Product Coaching mean?"],
+    ["workshops.html#bpb", "How to deliver business value as early as possible?"],
+    ["workshops.html#bpb", "Who and how is responsible for the Product Backlog on different levels?"],
+    ["workshops.html#bpb", "How to order a Product Backlog while working with stakeholders and development teams?"],
+    ["workshops.html#bpb", "How to move from running 500 concurrent projects in your organization?"]
     
 
 ]
@@ -36,7 +36,9 @@ var beat = 2;
 
 function myTimer() {
   if (beat==0) {
-    document.getElementById("questionlink").innerHTML  = pickANote();
+    let questionPicked = pickANote();
+    document.getElementById("questionlink").setAttribute('href',  questionPicked[0]); 
+    document.getElementById("questionlink").innerHTML =  questionPicked[1];
     beat = 4;
   }
   beat--;
