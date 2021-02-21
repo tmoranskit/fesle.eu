@@ -6,7 +6,7 @@ var myVar = setInterval(myTimer, 1000);
 
 var chromaticScale = [
     
-    'I love ho you lead the training it super and it is perfectly prepared in terms of form"',
+    '"I love how you lead the training it super and it is perfectly prepared in terms of form"',
     '"Great training, one of the best I have participated in!"',
     '"Thank you for the openness of the lecturer and nice time :)"',
     '"Great training, a lot of knowledge"',

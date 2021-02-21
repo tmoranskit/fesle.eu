@@ -103,6 +103,13 @@ div.questiontxt {
     transition: 1s ease-in-out;
   }
 
+#recommendations {
+    height: 3em;
+    overflow:scroll;
+    overflow-x: hidden;
+    text-align: center;
+}
+
 body {
     background-color: #fafafa;
     margin: 0;
