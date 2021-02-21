@@ -146,69 +146,50 @@ ul.navbar li a:hover:not(.active) {
 .questionmark {
     pointer-events: none;
     position: fixed;
-    animation-name: animation1;
+    animation-name: animation2;
     animation-duration: 6s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    font-size: 10vmin;
-    bottom: 20vmin;
+    font-size: 4.5vmin;
+    bottom: 50vmin;
     opacity: 0;
     color: #fc7c24;;
 }
 
-#qm1 {
-    animation-delay: 1s;
-    left: 10vmin;
-}
-
-#qm2 {
-    animation-delay: 2s;
-    left: 20vmin;
-}
-
-#qm3 {
-    animation-delay: 3s;
-    left: 5vmin;
-}
-
-#qm4 {
-    animation-delay: 4s;
-    left: 25vmin;
-}
-
 #qm5 {
-    animation-delay: 5s;
-    left: 15vmin;
+    animation-delay: 4s;
+    right: 25vmin;
+    animation-duration: 5s;
 }
-
-#qm6, #qm7, #qm8, #qm9, #qm10 {
-    bottom: 50vmin;
-    animation-name: animation2;
-} 
 
 #qm6 {
-    animation-delay: 4s;
-    right: 10vmin;
+    animation-delay: 5s;
+    right: 5vmin;
+    animation-duration: 3s;
 }
 
 #qm7 {
-    animation-delay: 5s;
+    animation-delay: 6s;
     right: 20vmin;
+    animation-duration: 4s;
 }
 
 #qm8 {
-    animation-delay: 6s;
-    right: 5vmin;
+    animation-delay: 7s;
+    right: 10vmin;
+    animation-duration: 7s;
 }
 
 #qm9 {
-    animation-delay: 7s;
-    right: 25vmin;
+    animation-delay: 8s;
+    right: 15vmin;
+    animation-duration: 6s;
 }
 
 #qm10 {
-    animation-delay: 8s;
-    right: 15vmin;
+    animation-delay: 9s;
+    right: 2vmin;
+    animation-duration: 8s;
 }
 
 section {
@@ -216,12 +197,6 @@ section {
 }
 
 section:nth-child(odd) {background: #E0E0E0}
-  
-  @keyframes animation1 {
-    0%   {opacity: 0; bottom:20vmin;}
-    50%  {opacity: 0.8; bottom:40vmin;}
-    100% {opacity: 0; bottom:60vmin;}
-  }
 
   @keyframes animation2 {
     0%   {opacity: 0; bottom:50vmin;}
