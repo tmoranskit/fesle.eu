@@ -230,6 +230,7 @@ section:nth-child(odd) {background: #E0E0E0}
       }
     */
 
+
     img.portrait {
         margin: 15px;
         width: 200px;
@@ -243,4 +244,10 @@ section:nth-child(odd) {background: #E0E0E0}
         margin: auto;
     }
   }
+
+@media only screen {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+}
 
