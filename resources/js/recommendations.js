@@ -34,7 +34,7 @@ function myTimer() {
 
 function updateInterval()
 {   
-    var bpm = 20;
+    var bpm = 30;
     var newInterval = Math.round(1000*60/bpm);
  
     if ((bpm >= 10)&&(bpm <= 400)) {      
