@@ -157,40 +157,47 @@ ul.navbar li a:hover:not(.active) {
 }
 
 #qm5 {
-    animation-delay: 4s;
+    animation-delay: 5s;
     right: 25vmin;
-    animation-duration: 5s;
+    animation-duration: 7s;
 }
 
 #qm6 {
-    animation-delay: 5s;
+    animation-delay: 4s;
     right: 5vmin;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 
 #qm7 {
     animation-delay: 6s;
     right: 20vmin;
-    animation-duration: 4s;
+    animation-duration: 6s;
 }
 
 #qm8 {
     animation-delay: 7s;
     right: 10vmin;
-    animation-duration: 7s;
+    animation-duration: 9s;
 }
 
 #qm9 {
     animation-delay: 8s;
     right: 15vmin;
-    animation-duration: 6s;
+    animation-duration: 8s;
 }
 
 #qm10 {
     animation-delay: 9s;
     right: 2vmin;
+    animation-duration: 10s;
+}
+
+#qm11 {
+    animation-delay: 3s;
+    right: 10vmin;
     animation-duration: 8s;
 }
+
 
 section {
     padding: 15px;
