@@ -81,6 +81,7 @@ img.question {
 }
 
 img.sectionimages {
+    margin-top: 15px;
     max-width: 95%;
 }
 
@@ -178,7 +179,7 @@ ul.navbar li a:hover:not(.active) {
     font-size: 4.5vmin;
     bottom: 50vmin;
     opacity: 0;
-    color: #fc7c24;;
+    color: #fc7c24;
 }
 
 #qm5 {
@@ -266,7 +267,7 @@ iframe {
     ul.navbar li {
         float: left;
     }
-    
+
     img.portrait {
         margin: 5px;
         width: 160px;
