@@ -141,6 +141,10 @@ body {
 
     font-family: 'Raleway', sans-serif;
 }
+section ul {
+    list-style-type: square;
+  }
+
 
 ul.navbar {
     list-style-type: none;
