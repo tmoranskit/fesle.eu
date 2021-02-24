@@ -255,13 +255,6 @@ iframe {
     width:100%;
 }
 
-img.inlineimg {
-    background-color: white;
-    height: 0.9em;
-    margin: 0 auto;
-    display:none;
-}
-
   @keyframes animation2 {
     0%   {opacity: 0; bottom:50vmin;}
     50%  {opacity: 0.8; bottom:70vmin;}
@@ -273,16 +266,7 @@ img.inlineimg {
     ul.navbar li {
         float: left;
     }
-
-    /* TO DO STICKY
-    ul.navbar  {
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
-    */
-
-
+    
     img.portrait {
         margin: 5px;
         width: 160px;
