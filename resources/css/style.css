@@ -255,7 +255,12 @@ iframe {
     width:100%;
 }
 
-
+img.inlineimg {
+    background-color: white;
+    height: 0.9em;
+    margin: 0 auto;
+    display:none;
+}
 
   @keyframes animation2 {
     0%   {opacity: 0; bottom:50vmin;}
