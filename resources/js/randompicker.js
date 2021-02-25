@@ -59,8 +59,36 @@ var chromaticScale = [
     ["workshops.html#atw", "How to handle integration issues?"],
     ["workshops.html#atw", "How to fight with a low bus factor?"],
     ["workshops.html#atw", "What to do with bugs no team wants to resolve?"],
-    ["workshops.html#atw", "How to foster multi teams cooperation?"]
+    ["workshops.html#atw", "How to foster multi teams cooperation?"],
 
+    //How to boost motivation with your Onboarding?
+    ["workshops.html#onb", "What is Onboarding?"],
+    ["workshops.html#onb", "What are the most important steps in Onboarding?"],
+    ["workshops.html#onb", "How to build employee motivation in the first months?"],
+    ["workshops.html#onb", "What onboarding techniques can help to check an employees experience?"],
+    ["workshops.html#onb", "Which onboarding techniques are ineffective and harmful?"],
+    ["workshops.html#onb", "How to prepare the Onboarding process and implement it?"],
+    ["workshops.html#onb", "How to measure Onboarding effectiveness?"],
+
+    //How to Offboard so that employees recommend us
+    ["workshops.html#off", "What is Offboarding?"],
+    ["workshops.html#off", "How to dismiss an employee from your organization?"],
+    ["workshops.html#off", "What are the most important steps when Offboarding?"],
+    ["workshops.html#off", "How to prepare your Exit Interview?"],
+    ["workshops.html#off", "How to guide your employee during his last weeks in the company?"],
+    ["workshops.html#off", "What offboarding techniques can help to check your employees experience?"],
+    ["workshops.html#off", "Which offboarding techniques are ineffective and harmful?"],
+    ["workshops.html#off", "How to prepare your Offboarding process and implemented it?"],
+
+    //Feedback, why we don't like it and how to change it?
+    ["workshops.html#fee", "Why feedback is so important?"],
+    ["workshops.html#fee", "What is most important in feedback?"],
+    ["workshops.html#fee", "Which feedback techniques can help to take care of yourself and others?"],
+    ["workshops.html#fee", "Which feedback techniques are ineffective and harmful?"],
+    ["workshops.html#fee", "How to prepare for feedback?"],
+    ["workshops.html#fee", "What are the challenges in giving feedback?"],
+    ["workshops.html#fee", "Why is experience so important?"]
+   
 ]
 
 var notePool = [];
