@@ -20,7 +20,6 @@ footer p {
 footer a:link, footer a:visited,
 section a:link, section a:visited {
     color: #fc7c24;
-    text-align: center;
     display: inline-block;
     text-decoration: underline;
 
