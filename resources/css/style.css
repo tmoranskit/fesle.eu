@@ -37,6 +37,7 @@ section a:link, section a:visited {
 
   ul li a {
     display: list-item;
+    padding: 5px;
   }
 
     a.button:link, a.button:visited {
