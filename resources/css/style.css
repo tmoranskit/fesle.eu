@@ -35,10 +35,16 @@ section a:link, section a:visited {
     transition: 0.2s ease-in;
   }
 
-  ul li a {
+  section ul li a {
     display: list-item;
-    padding: 5px;
+    padding: 6px 9px;
   }
+
+  section ul {
+      display: table;
+  }
+
+
 
     a.button:link, a.button:visited {
       color: white;
