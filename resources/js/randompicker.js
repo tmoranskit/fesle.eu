@@ -87,8 +87,15 @@ var chromaticScale = [
     ["workshops.html#fee", "Which feedback techniques are ineffective and harmful?"],
     ["workshops.html#fee", "How to prepare for feedback?"],
     ["workshops.html#fee", "What are the challenges in giving feedback?"],
-    ["workshops.html#fee", "Why is experience so important?"]
-   
+    ["workshops.html#fee", "Why is experience so important?"],
+
+    //Agile in HR
+    ["workshops.html#ahr", "Why Agile in HR?"],
+    ["workshops.html#ahr", "What can be found in an Agile Toolbox?"],
+    ["workshops.html#ahr", "How to make Agile decisions?"],
+    ["workshops.html#ahr", "How to understand a particular problem and find a vision for a solution?"],
+    ["workshops.html#ahr", "What are the useful agile tools for HR?"],
+    ["workshops.html#ahr", "How to work as a self organising team?"]
 ]
 
 var notePool = [];
