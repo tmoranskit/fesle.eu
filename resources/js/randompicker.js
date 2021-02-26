@@ -92,6 +92,7 @@ var chromaticScale = [
     //Agile in HR
     ["workshops.html#ahr", "Why Agile in HR?"],
     ["workshops.html#ahr", "What can be found in an Agile Toolbox?"],
+    ["workshops.html#ahr", "What is the difference between agile HR and HR for agile organization?"],
     ["workshops.html#ahr", "How to make Agile decisions?"],
     ["workshops.html#ahr", "How to understand a particular problem and find a vision for a solution?"],
     ["workshops.html#ahr", "What are the useful agile tools for HR?"],
