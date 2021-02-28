@@ -114,6 +114,13 @@ div.questiontxt {
     display:table;
   }
 
+  div.questiontxt h1 {
+    font-size: 4.5vmin;
+    text-align: center;
+    vertical-align: middle; 
+    font-weight:normal;
+  }
+
  #questionlink{
     position: relative;
     text-align:center;
