@@ -202,48 +202,80 @@ ul.navbar li a:hover:not(.active) {
     bottom: 50vmin;
     opacity: 0;
     color: #fc7c24;
+    text-align: right;
 }
 
 #qm5 {
     animation-delay: 5s;
     right: 25vmin;
-    animation-duration: 7s;
+    animation-duration: 15s;
 }
 
 #qm6 {
     animation-delay: 4s;
     right: 5vmin;
-    animation-duration: 5s;
+    animation-duration: 15s;
 }
 
 #qm7 {
     animation-delay: 6s;
     right: 20vmin;
-    animation-duration: 6s;
+    animation-duration: 15s;
 }
 
 #qm8 {
     animation-delay: 7s;
     right: 10vmin;
-    animation-duration: 9s;
+    animation-duration: 15s;
 }
 
 #qm9 {
-    animation-delay: 8s;
+    animation-delay: 9s;
     right: 15vmin;
-    animation-duration: 8s;
+    animation-duration: 15s;
 }
 
 #qm10 {
-    animation-delay: 9s;
+    animation-delay: 10s;
     right: 2vmin;
-    animation-duration: 10s;
+    animation-duration: 15s;
 }
 
 #qm11 {
-    animation-delay: 3s;
+    animation-delay: 14s;
     right: 10vmin;
-    animation-duration: 8s;
+    animation-duration: 15s;
+}
+
+#qm12 {
+    animation-delay: 15s;
+    right: 10vmin;
+    animation-duration: 15s;
+}
+#qm13 {
+    animation-delay: 16s;
+    right: 10vmin;
+    animation-duration: 15s;
+}
+#qm14 {
+    animation-delay: 17s;
+    right: 10vmin;
+    animation-duration: 15s;
+}
+#qm15 {
+    animation-delay: 13s;
+    right: 10vmin;
+    animation-duration: 15s;
+}
+#qm16 {
+    animation-delay: 12s;
+    right: 10vmin;
+    animation-duration: 15s;
+}
+#qm17 {
+    animation-delay: 11s;
+    right: 10vmin;
+    animation-duration: 15s;
 }
 
 nav {
@@ -280,8 +312,8 @@ iframe {
 
   @keyframes animation2 {
     0%   {opacity: 0; bottom:50vmin;}
-    50%  {opacity: 0.8; bottom:70vmin;}
-    100% {opacity: 0; bottom:90vmin;}
+    15%  {opacity: 0.8; bottom:70vmin;}
+    30% {opacity: 0; bottom:90vmin;}
   }
 
   @media (min-width:500px){
