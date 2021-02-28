@@ -203,108 +203,91 @@ ul.navbar li a:hover:not(.active) {
     opacity: 0;
     color: #fc7c24;
     text-align: right;
+    right: 10vmin;
 }
 
 #qm5 {
     animation-delay: 5s;
-    right: 25vmin;
     animation-duration: 20s;
 }
 
 #qm6 {
     animation-delay: 4s;
-    right: 5vmin;
     animation-duration: 20s;
 }
 
 #qm7 {
     animation-delay: 6s;
-    right: 20vmin;
     animation-duration: 20s;
 }
 
 #qm8 {
     animation-delay: 7s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 
 #qm9 {
     animation-delay: 9s;
-    right: 15vmin;
     animation-duration: 20s;
 }
 
 #qm10 {
     animation-delay: 10s;
-    right: 2vmin;
     animation-duration: 20s;
 }
 
 #qm11 {
     animation-delay: 14s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 
 #qm12 {
     animation-delay: 15s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 #qm13 {
     animation-delay: 16s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 #qm14 {
     animation-delay: 17s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 #qm15 {
     animation-delay: 13s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 #qm16 {
     animation-delay: 12s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 #qm17 {
     animation-delay: 11s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 
 #qm18 {
     animation-delay: 18s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 
 #qm19 {
     animation-delay: 19s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 
 #qm20 {
     animation-delay: 20s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 
 #qm21 {
     animation-delay: 21s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 
 #qm22 {
     animation-delay: 22s;
-    right: 10vmin;
     animation-duration: 20s;
 }
 
