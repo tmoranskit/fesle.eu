@@ -2,9 +2,7 @@ html {
 	scroll-behavior: smooth;
 }
 
-img {
-    width: 90%;
-}
+
 
 footer {
     display: flex;
