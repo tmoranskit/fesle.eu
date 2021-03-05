@@ -257,88 +257,88 @@ ul.navbar li a:hover:not(.active) {
 }
 
 #qm5 {
-    animation-delay: 5s;
-    animation-duration: 18s;
+    animation-delay: 7s;
+    animation-duration: 36s;
 }
 
 #qm6 {
     animation-delay: 4s;
-    animation-duration: 18s;
+    animation-duration: 36s;
 }
 
 #qm7 {
-    animation-delay: 6s;
-    animation-duration: 18s;
+    animation-delay: 10s;
+    animation-duration: 36s;
 }
 
 #qm8 {
-    animation-delay: 7s;
-    animation-duration: 18s;
+    animation-delay: 14s;
+    animation-duration: 36s;
 }
 
 #qm9 {
-    animation-delay: 8s;
-    animation-duration: 18s;
+    animation-delay: 16s;
+    animation-duration: 36s;
 }
 
 #qm10 {
-    animation-delay: 9s;
-    animation-duration: 18s;
+    animation-delay: 18s;
+    animation-duration: 36s;
 }
 
 #qm11 {
-    animation-delay: 13s;
-    animation-duration: 18s;
+    animation-delay: 26s;
+    animation-duration: 36s;
 }
 
 #qm12 {
-    animation-delay: 14s;
-    animation-duration: 18s;
+    animation-delay: 28s;
+    animation-duration: 36s;
 }
 #qm13 {
-    animation-delay: 15s;
-    animation-duration: 18s;
+    animation-delay: 30s;
+    animation-duration: 36s;
 }
 #qm14 {
-    animation-delay: 16s;
-    animation-duration: 18s;
+    animation-delay: 32s;
+    animation-duration: 36s;
 }
 #qm15 {
-    animation-delay: 12s;
-    animation-duration: 18s;
+    animation-delay: 24s;
+    animation-duration: 36s;
 }
 #qm16 {
-    animation-delay: 11s;
-    animation-duration: 18s;
+    animation-delay: 22s;
+    animation-duration: 36s;
 }
 #qm17 {
-    animation-delay: 10s;
-    animation-duration: 18s;
+    animation-delay: 20s;
+    animation-duration: 36s;
 }
 
 #qm18 {
-    animation-delay: 17s;
-    animation-duration: 18s;
+    animation-delay: 34s;
+    animation-duration: 36s;
 }
 
 #qm19 {
-    animation-delay: 18s;
-    animation-duration: 18s;
+    animation-delay: 35s;
+    animation-duration: 36s;
 }
 
 #qm20 {
-    animation-delay: 19s;
-    animation-duration: 18s;
+    animation-delay: 36s;
+    animation-duration: 36s;
 }
 
 #qm21 {
-    animation-delay: 20s;
-    animation-duration: 18s;
+    animation-delay: 37s;
+    animation-duration: 36s;
 }
 
 #qm22 {
-    animation-delay: 21s;
-    animation-duration: 18s;
+    animation-delay: 38s;
+    animation-duration: 36s;
 }
 
 nav {
@@ -384,8 +384,8 @@ iframe {
 
   @keyframes animation2 {
     0%   {opacity: 0; bottom:50vmin;}
-    15%  {opacity: 0.8; bottom:70vmin;}
-    30% {opacity: 0; bottom:90vmin;}
+    6%  {opacity: 0.8; bottom:70vmin;}
+    12% {opacity: 0; bottom:90vmin;}
   }
 
   @media (min-width:500px){
